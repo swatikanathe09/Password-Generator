@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c2b0b0;
+  animation: colorChange 30s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% { color: red; }
+  5% { color: orange; }
+  7% { color: black; }
+  10% { color: rgb(88, 88, 6); }
+  15% { color: black; }
+  20% { color: blue; }
+  25% { color: rgb(65, 9, 105); }
+  30% { color: black; }
+  35% { color: rgb(5, 93, 93); }
+  40% { color: magenta; }
+  45% { color: black; }
+  50% { color: rgb(231, 9, 46); }
+  55% { color: gold; }
+  60% { color: rgb(79, 57, 57); }
+  65% { color: brown; }
+  70% { color: black; }
+  75% { color: rgb(4, 77, 53); }
+  80% { color: rgb(43, 43, 100); }
+  85% { color: rgb(168, 64, 26); }
+  90% { color: rgb(111, 111, 36); }
+  95% { color: maroon; }
+  100% { color: rgb(96, 4, 96); }
+}
+
+
+h1{
+  font-weight: 400;
+  color: teal;
+  font-size: 67px;
+}
+
+.container{
+  width: 300px;
+  font-size: 30px;
+}
+
+.form-group{
+  width: 100%;
+  display: flex;
+  margin:20px 5px ;
+  gap:10px;
+}
+
+input{
+    padding: 1.5em 5em;
+    background: #efefef;
+    border: none;
+    border-radius: .5rem;
+    color: #444;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(208, 170, 170, 0.7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+input:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+                -2px -2px 4px rgba(255, 255, 255, .4),
+                2px 2px 2px rgba(255, 255, 255, .05),
+                2px 2px 4px rgba(0, 0, 0, .1);
+  }
+  
+input:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset -2px -2px 4px rgba(255, 255, 255, .5),
+                inset 2px 2px 2px rgba(255, 255, 255, .075),
+                inset 2px 2px 4px rgba(0, 0, 0, .15);
+  }
+
+button {
+    padding: 1.5em 5em;
+    background: #efefef;
+    border: none;
+    border-radius: .5rem;
+    color: #444;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, .15);
+  }
+  
+  button:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+                -2px -2px 4px rgba(255, 255, 255, .4),
+                2px 2px 2px rgba(255, 255, 255, .05),
+                2px 2px 4px rgba(0, 0, 0, .1);
+  }
+  
+  button:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset -2px -2px 4px rgba(255, 255, 255, .5),
+                inset 2px 2px 2px rgba(255, 255, 255, .075),
+                inset 2px 2px 4px rgba(0, 0, 0, .15);
+  }
